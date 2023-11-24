@@ -1,55 +1,37 @@
 <!-- Margin and padding together -->
 <style>
-    .one{
-        background-color: green;
-        color: white;
-        border: none;
-        font-size: 18px;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        padding-left: 10px;
-        padding-right: 10px;
-        cursor: pointer;
-        margin-right: 10px;
+    .stretch-button {
+      background-color: green;
+      color: white;
+      border: none;
+      font-size: 18px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      cursor: pointer;
+  
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+  
+      transition: padding 0.15s,
+        margin 0.15s;
     }
-
-    .two{
-        background-color: green;
-        color: white;
-        border: none;
-        font-size: 18px;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        padding-left: 10px;
-        padding-right: 10px;
-        cursor: pointer;
+  
+    .stretch-button:hover {
+      padding-left: 25px;
+      padding-right: 25px;
+      margin-left: 0px;
+      margin-right: 0px;
     }
-
-    .three{
-        background-color: green;
-        color: white;
-        border: none;
-        font-size: 18px;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        padding-left: 10px;
-        padding-right: 10px;
-        cursor: pointer;
-    }
-
-
-</style>
-
-
-
-<button class="one">
+  </style>
+  
+  <button class="stretch-button">
     One
-</button>
-
-<button class="two">
+  </button>
+  <button class="stretch-button">
     Two
-</button>
-
-<button class="three">
+  </button>
+  <button class="stretch-button">
     Three
-</button>
+  </button>
